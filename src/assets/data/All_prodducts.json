@@ -1,0 +1,50 @@
+[
+    {
+        "src":"../../assets/images/nike.jpg",
+        "productName":"Nike",
+        "productCategory":"shoes",
+        "productPrice":"$50:00",
+        "Desc":"nike shoes is the best"
+
+    },
+    {
+        "src":"../../assets/images/adidas.png",
+        "productName":"Adidas",
+        "productCategory":"shoes",
+        "productPrice":"$150:00",
+        "Desc":"adidas shoes is the best"
+
+    },
+    {
+        "src":"../../assets/images/rino.jpg",
+        "productName":"Konafa",
+        "productCategory":"food",
+        "productPrice":"$250:00",
+        "Desc":"rino is the best"
+
+    },
+    {
+        "src":"../../assets/images/active.jpg",
+        "productName":"Active",
+        "productCategory":"shoes",
+        "productPrice":"$30:00",
+        "Desc":"active shoes is the best"
+
+    },
+    {
+        "src":"../../assets/images/pepsi.jpg",
+        "productName":"PEPSi",
+        "productCategory":"drinks",
+        "productPrice":"$40:00",
+        "Desc":"PEPSi drink is the best"
+
+    },
+    {
+        "src":"../../assets/images/coca.jpg",
+        "productName":"Coca",
+        "productCategory":"drinks",
+        "productPrice":"$50:00",
+        "Desc":"PEPSi drink is the best"
+
+    }
+]

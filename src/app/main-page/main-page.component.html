@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row mt-5" >
+    <div class="col-md-4" *ngFor="let d of data">
+      <div class="card mb-4 box-shadow cursor"> 
+        <a [routerLink]="['/cardDetails']" [queryParams]="{name:d.productName,Category:d.productCategory}"><img class="card-img-top" src={{d.src}} (click)="toggle($event,d.productName,d.productCategory,d.productPrice,d.src,d.Desc)"></a>
+        <div class="card-body">
+          <h5 class="card-title">{{d.productName}}</h5>
+          <h6 class="font-italic text-secondary">{{d.productCategory}}</h6>
+          <small class="font-weight-bold text-success">{{d.productPrice}}</small>
+          <div class="mt-3">
+            <button type="button" class="btn btn-sm btn-outline-secondary"  [routerLink]="['/selectedProduct']"  (click)="AddToSelectedProduct(d.productName,d.productCategory,d.productPrice,d.src,d.Desc)">Add To Card</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,20 @@
+[
+    {
+        "productName":"Coca",
+        "productCategory":"drinks",
+        "productPrice":"$50:00"
+
+    },
+    {
+        "productName":"konafa",
+        "productCategory":"food",
+        "productPrice":"$250:00"
+
+    },
+    {
+        "productName":"Adidas",
+        "productCategory":"shoes",
+        "productPrice":"$150:00"
+
+    }
+]
